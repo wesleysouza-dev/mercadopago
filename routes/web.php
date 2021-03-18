@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Payments;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
+
+
+Route::get('/obrigado', function () {
+    if ( Session::has( 'link_boleto' ) || Session::has( 'pagamento_ok')) : //apenas pra teste - em prod não colocaria regras na rota
+        return view('obrigado');
+    endif;
+    return abort('404');
+    
+})->name('obrigado');
+
+
+Route::post('/payments', [Payments::class, 'index']);
