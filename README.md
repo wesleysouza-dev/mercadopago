@@ -1,9 +1,5 @@
-<p align="center"><a href="https://www.mercadopago.com.br/developers/pt/guides/online-payments/checkout-api/receiving-payment-by-card" target="_blank"><img src="https://www.shipay.com.br/wp-content/uploads/2020/09/mercado-pago-logo.png" width="300"></a></p>
+<p align="center"><a href="https://www.mercadopago.com.br/developers/pt/guides/online-payments/checkout-api/receiving-payment-by-card" target="_blank"><img src="https://wesleydesign.com.br/projetos/github/laravel-mercadopago.png" width="300"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://www.mercadopago.com.br/developers/pt/guides/online-payments/checkout-api/introduction"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Mercadopago API Checkout"></a>
-</p>
 
 ## Descrição
 Realize cobrança via cartão de crédito ou boleto utilizando a API do Mercadopago.
