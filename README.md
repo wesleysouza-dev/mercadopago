@@ -9,7 +9,7 @@ Realize cobrança via cartão de crédito ou boleto utilizando a API do Mercadop
 - Instalado composer (https://getcomposer.org/download/)
 - Servidor Apache ou Nginx com PHP >7.3
 
-- **Obs**: A Versão do Laravel utilizada é a 8.12
+- **Obs***: A Versão do Laravel utilizada é a 8.12
 
 
 ## Como Instalar
